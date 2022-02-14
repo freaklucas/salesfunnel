@@ -11,7 +11,7 @@
         />
         
       </b-form-group>
-      <b-button type="submit" :variant="submitColor" size="lg" block>
+      <b-button type="submit" :variant="submitColor" size="lg" block style="marginTop:15px">
         {{ submitText }}
       </b-button>
     </form>

@@ -6,6 +6,10 @@ import router from "./router";
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap-vue/dist/bootstrap-vue.css";
 
+import Embed from "v-video-embed";
+
+Vue.use(Embed);
+
 Vue.config.productionTip = false;
 Vue.use(BootstrapVue);
 

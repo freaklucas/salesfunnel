@@ -17,7 +17,7 @@
     <b-row>
       <b-col>
         <VideoContent
-          link="https://www.youtube.com/embed/P0gkZnwlQx8"
+          link="https://www.youtube.com/embed/m9q58hSppds"
           topMargin="30px"
         />
       </b-col>
@@ -37,3 +37,9 @@ export default {
   },
 };
 </script>
+
+<style>
+.teste {
+  width: 100%;
+}
+</style>

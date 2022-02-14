@@ -32,6 +32,13 @@
         />
       </b-col>
     </b-row>
+    <b-row>
+      <b-col>
+        <CountDownTimer endDate="August 22, 2022" />
+
+        <TextContent variant="subheader" content="Oferta prestes a expirar" />
+      </b-col>
+    </b-row>
   </div>
 </template>
 
@@ -39,11 +46,14 @@
 import TextContent from "../components/TextContent.vue";
 import OptinForm from "../components/OptinForm.vue";
 
+import CountDownTimer from "../components/CountDownTimer.vue";
+
 export default {
   name: "optin",
   components: {
     TextContent,
     OptinForm,
+    CountDownTimer,
   },
   methods: {
     handleSubmit(form) {

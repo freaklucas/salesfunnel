@@ -1,5 +1,5 @@
 <template>
-  <div :style="{ marginTop: topMargin }" fluid="lg">
+  <div :style="{ marginTop: topMargin }" fluid="lg" class="container">
     <b-embed type="iframe" aspect="16by9" :src="link" allowfullscreen />
   </div>
 </template>

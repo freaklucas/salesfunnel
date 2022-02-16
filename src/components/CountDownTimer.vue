@@ -16,7 +16,7 @@ export default {
 
 <style>
 .countdown-timer {
-  padding: 15px;
+  padding: 25px;
   text-align: center;
 }
 
